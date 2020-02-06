@@ -97,12 +97,12 @@ function schedule( url, body ) {
 function send( url, body ) {
 
         // This function needs to be provided.
-		PERFORM_HTTP_POST( url, body );
+        PERFORM_HTTP_POST( url, body );
 
-		//
-		// Device radio was awakened
-		// by calling integrationHTTPPOST,
-		// so we might as well flush.
-		//
-		sendAllScheduled();
+        //
+        // Device radio was awakened
+        // by calling integrationHTTPPOST,
+        // so we might as well flush.
+        //
+        sendAllScheduled();
 }
