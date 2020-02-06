@@ -1,0 +1,26 @@
+PHASE I 
+    see: client.js
+
+    - HTTP POST 
+    - configure() 
+    - produce()
+
+PHASE II
+    see: client_cc.js
+
+    - configure() enhanced
+    - produce() enhanced
+
+PHASE III
+    see: sampling.js
+
+    - inSample()
+    - produce() enhanced
+
+PHASE IV 
+    see: association.js
+
+    - clientID()
+    - sessionID()
+    - beginNewSession()
+    - produce() enhanced
